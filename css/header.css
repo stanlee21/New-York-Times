@@ -1,7 +1,6 @@
 .nav-bar {
   max-width: 1250px;
   border-bottom: 3px double #121212;
-  padding-bottom: 12px;
   padding: 10px 15px;
   margin: 0 auto;
 }
@@ -9,11 +8,16 @@
 .nav-list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
   gap: 20px;
+}
+
+.nav-list li {
+  margin: 0;
+  padding: 0;
 }
 
 .nav-list a {
@@ -23,6 +27,7 @@
   font-weight: 500;
   display: inline-flex;
   align-items: center;
+  white-space: nowrap;
   transition: color 0.2s ease;
   margin: 0;
   padding: 0;
@@ -30,7 +35,7 @@
 
 .chevron {
   font-size: 16px;
-  color: #666666;
+  color: #666;
   transform: translateY(-2px);
   margin: 0;
 }
@@ -98,9 +103,4 @@
 
 .left-middle-section p {
   margin-right: 0;
-}
-
-.nav-list li {
-  margin: 0;
-  padding: 0;
 }
