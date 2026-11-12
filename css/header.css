@@ -14,11 +14,11 @@
   cursor: pointer;
 }
 
-ul {
+.top-nav {
   display: flex;
 }
 
-ul li {
+.top-nav {
   list-style: none;
   margin: 0;
   padding-left: 6px;
@@ -59,6 +59,9 @@ ul li:nth-child(2) {
   flex: 1;
 }
 
+.middle-section {
+  margin-top: 10px;
+}
 .left-middle-section a {
   margin: 0;
   text-decoration: none;
@@ -67,4 +70,48 @@ ul li:nth-child(2) {
 
 .left-middle-section p {
   margin-right: 0;
+}
+
+.nav-bar {
+  max-width: 1250px;
+  /* Creates the classic double horizontal line at the bottom */
+  border-bottom: 3px double #121212;
+  padding-bottom: 12px;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-list li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #121212;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.chevron {
+  font-size: 16px;
+  color: #666666;
+  /* Adjusts vertical alignment of the down arrow */
+  transform: translateY(-2px); 
+  margin: 0;
 }
