@@ -1,0 +1,40 @@
+.up_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-icon{
+    height: 20px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: rgb(102, 100, 100);
+    text-transform: uppercase;
+}
+ul li:nth-child(2){
+    color:black;
+    font-weight: bold;
+}
+.login-button {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 11px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(86, 123, 149);
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-family: nyt-franklin, helvetica, arial,sans-serif;
+    transition: 0.6s;
+}
