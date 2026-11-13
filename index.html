@@ -1,31 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New York Times Clone</title>
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/header.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
     <!-- Header  -->
     <header>
-        <!-- up section starts here -->
-        <div class="up_section">
-            <img class="search-icon" src="/assets/icons/search.png" alt="search icon">
-            <ul>
-                <li>U.S.</li>
-                <li>international</li>
-                <li>Canada</li>
-                <li>Espanol</li>
-                <li>Chinese</li>
-            </ul>
-            <button class="login-button">log in</button>
-        <!-- up section ends here -->
+      <!-- up section starts here -->
+      <div class="up-section">
+        <img
+          class="search-icon"
+          src="/assets/icons/search.png"
+          alt="search icon"
+        />
+        <ul class="top-nav">
+          <li>U.S.</li>
+          <li>international</li>
+          <li>Canada</li>
+          <li>Espanol</li>
+          <li>Chinese</li>
+        </ul>
+        <button class="login-button">log in</button>
+      </div>
+      <!-- up section ends here -->
 
+      <!-- middle section starts here -->
+      <div class="middle-section">
+        <div middle-right-section>
+          <p>Thursday, November, 12, 2026</p>
+          <p>Todays paper</p>
         </div>
-        <div class="middle_section"></div>
-        <div class="down_section"></div>
+        <img class="main-logo" src="assets/images/logo.png" alt="" />
+        <div class="left-middle-section">
+          <p>Dow <a href=""> +1.1%6 &#8593;</a></p>
+        </div>
+      </div>
+      <!-- middle section ends here -->
+
+      <!-- down section starts here -->
+      <div class="nav-bar">
+        <ul class="nav-list">
+          <li>
+            <a href="#">U.S. <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">World <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Business <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Arts <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">lifestyle <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Opinion <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Video <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Shows <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Games <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Cooking <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">Wirecutter <span class="chevron">&#8964;</span></a>
+          </li>
+          <li>
+            <a href="#">The Atletic <span class="chevron">&#8964;</span></a>
+          </li>
+        </ul>
+      </div>
     </header>
-</body>
+    <!-- End of header  -->
+
+    <!-- main section starts here -->
+    <main>
+      <div class="left-story-column">
+        <p class="story-starter">
+          These Top Stories are<span class="text-bold">free to read</span>
+        </p>
+        <h1 class="main-heading">
+          Nvidia C.E.O.'s Fate Is on the Line as Scandals Mount
+        </h1>
+
+        <div class="middle-column">
+          <div class="story-column">
+            <article class="top-article">
+              <h4>
+                Jensen Huang Is Under Scrutiny Over Ties To a Reputed Spy and an
+                Executive
+              </h4>
+              <p class="description">
+                Nvidia's board met to discuss Mr. huang but made no announcement
+                about any decisions regarding the chip maker's longtime leader
+              </p>
+              <p class="status">4 min read</p>
+            </article>
+            <article class="down-article">
+              <h4>
+                Jensen Huang Is Under Scrutiny Over Ties To a Reputed Spy and an
+                Executive
+              </h4>
+              <p class="description">
+                Nvidia's board met to discuss Mr. huang but made no announcement
+                about any decisions regarding the chip maker's longtime leader
+              </p>
+              <p class="status">3 min read</p>
+            </article>
+          </div>
+
+          <div class="video-column">
+            <figure class="lead-media">
+              <video class="lead-video" controls poster="video-poster.jpg">
+                <source src="assets/videos/vid1.mp4" type="video/mp4" />
+              </video>
+
+              <figcaption class="credit">Jamie Leventhal</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- left side bar -->
+      <div class="right-sidebar"></div>
+    </main>
+  </body>
 </html>

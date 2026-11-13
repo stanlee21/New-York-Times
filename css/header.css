@@ -1,0 +1,106 @@
+.nav-bar {
+  max-width: 1250px;
+  border-bottom: 3px double #121212;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.chevron {
+  font-size: 16px;
+  color: #666;
+  transform: translateY(-2px);
+  margin: 0;
+}
+
+.up-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-icon {
+  height: 20px;
+  cursor: pointer;
+}
+
+.top-nav {
+  list-style: none;
+  margin: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: rgb(102 100 100);
+  text-transform: uppercase;
+  display: flex;
+}
+
+.top-nav li:nth-child(2) {
+  color: black;
+  font-weight: bold;
+}
+
+.login-button {
+  padding: 8px 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(86 123 149);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  transition: 0.6s;
+}
+
+/* the header middle section */
+
+.middle-section {
+  display: flex;
+  margin-left: 0;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.main-logo {
+  width: 500px;
+  flex: 1;
+}
+
+.left-middle-section a {
+  margin: 0;
+  text-decoration: none;
+  color: #267c30;
+}
+
+.left-middle-section p {
+  margin-right: 0;
+}
