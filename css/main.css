@@ -175,6 +175,7 @@ main {
   margin: 0;
   padding: 0 0 20px;
 }
+
 .section-heading {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
@@ -258,7 +259,7 @@ main {
   display: block;
 }
 
-/*---------------- Right side bar--------------- */
+/*---------------- Right side bar--------------- */ 
 
 .right-sidebar {
   border-left: 1px solid black;
@@ -315,7 +316,7 @@ main {
 /* --------side bar carousel-------- */
 
 .sidebar-carousel {
-  
+
   /* margin: 0; */
 
   padding-top: 16px;
