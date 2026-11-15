@@ -128,7 +128,7 @@ main {
   padding: 18px 0;
   border-bottom: 1px solid #121212;
   width: 100%;
-  margin: 0 0 18px 0;
+  margin: 0 0 18px;
 }
 
 .bottom-story:first-child {
@@ -173,7 +173,7 @@ main {
 .more-free-section {
   width: 100%;
   margin: 0;
-  padding: 0 0 20px 0;
+  padding: 0 0 20px;
 }
 .section-heading {
   font-family: Helvetica, Arial, sans-serif;
@@ -185,7 +185,7 @@ main {
 }
 
 .more-free-grid {
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
   padding: 0;
   box-sizing: border-box;
   display: grid;
@@ -273,7 +273,7 @@ main {
 
 .ride-side-media {
   width: 100%;
-  margin: 18px 0 0 0;
+  margin: 18px 0 0;
   padding: 0;
 }
 
@@ -291,7 +291,7 @@ main {
   margin: 0;
 }
 .top-right-text h3 {
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   font-family: "Courier New", Courier, monospace;
   font-weight: 600;
   font-size: 20px;
