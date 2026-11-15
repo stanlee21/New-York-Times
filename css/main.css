@@ -182,7 +182,7 @@ main {
   font-weight: 500;
   color: #121212;
   margin: 0 0 12px;
-  padding-left: 24px;
+  padding-left: 10px;
 }
 
 .more-free-grid {
@@ -259,7 +259,7 @@ main {
   display: block;
 }
 
-/*---------------- Right side bar--------------- */ 
+/*---------------- Right side bar --------------- */
 
 .right-sidebar {
   border-left: 1px solid black;
@@ -316,9 +316,6 @@ main {
 /* --------side bar carousel-------- */
 
 .sidebar-carousel {
-
-  /* margin: 0; */
-
   padding-top: 16px;
   padding-bottom: 16px;
   border-top: 1px solid #e2e2e2;
