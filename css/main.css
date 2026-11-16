@@ -45,9 +45,13 @@ video {
 .search-btn {
   background: none;
   border: none;
-  font-size: 15px;
+  font-size: 2px;
   cursor: pointer;
   color: #121212;
+}
+
+.search-btn .search-icon {
+  width: 10px;
 }
 
 .edition-list {
@@ -951,6 +955,13 @@ video {
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.most-shared-card:last-child {
+  border-bottom: none;
 }
 
 .most-shared-body {
