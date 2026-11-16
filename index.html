@@ -3,243 +3,627 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New York Times Clone</title>
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/header.css" />
+    <title>The New York Times</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <!-- Header  -->
-    <header>
-      <!-- up section starts here -->
-      <div class="up-section">
-        <img
-          class="search-icon"
-          src="/assets/icons/search.png"
-          alt="search icon"
-        />
-        <ul class="top-nav">
-          <li>U.S.</li>
-          <li>international</li>
-          <li>Canada</li>
-          <li>Espanol</li>
-          <li>Chinese</li>
-        </ul>
-        <button class="login-button">log in</button>
-      </div>
-      <!-- up section ends here -->
+    <div class="page-wrapper">
+      <!-- HEADER -->
+      <header class="site-header">
+        <div class="top-bar">
+          <button type="button" class="search-btn" aria-label="Search">
+            &#128269;
+          </button>
 
-      <!-- middle section starts here -->
-      <div class="middle-section">
-        <div middle-right-section>
-          <p>Thursday, November, 12, 2026</p>
-          <p>Todays paper</p>
+          <ul class="edition-list">
+            <li><a href="#">U.S.</a></li>
+            <li><a href="#" class="is-active">INTERNATIONAL</a></li>
+            <li><a href="#">CANADA</a></li>
+            <li><a href="#">ESPAÑOL</a></li>
+            <li><a href="#">中文</a></li>
+          </ul>
+
+          <a href="#" class="login-btn">LOG IN</a>
         </div>
-        <img class="main-logo" src="assets/images/logo.png" alt="" />
-        <div class="left-middle-section">
-          <p>Dow <a href=""> +1.1%6 &#8593;</a></p>
-        </div>
-      </div>
-      <!-- middle section ends here -->
 
-      <!-- down section starts here -->
-      <div class="nav-bar">
-        <ul class="nav-list">
-          <li>
-            <a href="#">U.S. <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">World <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Business <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Arts <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">lifestyle <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Opinion <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Video <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Shows <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Games <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Cooking <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">Wirecutter <span class="chevron">&#8964;</span></a>
-          </li>
-          <li>
-            <a href="#">The Atletic <span class="chevron">&#8964;</span></a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <!-- End of header  -->
-
-    <!-- main section starts here -->
-    <main>
-      <div class="left-story-column">
-        <p class="story-starter">
-          These Top Stories are<span class="text-bold">free to read</span>
-        </p>
-        <h1 class="main-heading">
-          Nvidia C.E.O.'s Fate Is on the Line as Scandals Mount
-        </h1>
-
-        <div class="middle-column">
-          <div class="story-column">
-            <article class="top-article">
-              <h4>
-                Jensen Huang Is Under Scrutiny Over Ties To a Reputed Spy and an
-                Executive
-              </h4>
-              <p class="description">
-                Nvidia's board met to discuss Mr. huang but made no announcement
-                about any decisions regarding the chip maker's longtime leader
-              </p>
-              <p class="status">4 min read</p>
-            </article>
-            <article class="down-article">
-              <h4>
-                Jensen Huang Is Under Scrutiny Over Ties To a Reputed Spy and an
-                Executive
-              </h4>
-              <p class="description">
-                Nvidia's board met to discuss Mr. huang but made no announcement
-                about any decisions regarding the chip maker's longtime leader
-              </p>
-              <p class="status">3 min read</p>
-            </article>
+        <div class="masthead-bar">
+          <div class="date-box">
+            <p class="date-text">Thursday, November 12, 2026</p>
+            <a href="#" class="paper-link">Today’s Paper</a>
           </div>
 
-          <div class="video-column">
-            <figure class="lead-media">
-              <video class="lead-video" controls poster="video-poster.jpg">
-                <source src="assets/videos/vid1.mp4" type="video/mp4" />
-              </video>
+          <h1 class="masthead-title">
+            <a href="#">The New York Times</a>
+          </h1>
 
-              <figcaption class="credit">Jamie Leventhal</figcaption>
-            </figure>
-          </div>
+          <div class="masthead-spacer"></div>
         </div>
 
-        <div class="lead-bottom">
-          <article class="bottom-story">
-            <h3><a href="#">What to Know About the Turmoil at Nvidia</a></h3>
-            <span class="read-time">4 MIN READ</span>
-          </article>
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li>
+              <a href="#">U.S. <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">World <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Business <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Arts <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Lifestyle <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Opinion <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Video <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Shows <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Games <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Cooking <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">Wirecutter <span class="chevron">&#8964;</span></a>
+            </li>
+            <li>
+              <a href="#">The Athletic <span class="chevron">&#8964;</span></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-          <article class="bottom-story">
-            <h3>
-              <a href="#"
-                >Nvidia Shares Plummet as Board Is Said to Consider C.E.O.’s
-                Future</a
-              >
-            </h3>
-            <span class="read-time">4 MIN READ</span>
-          </article>
-        </div>
+      <!-- MAIN TWO-COLUMN LAYOUT -->
+      <main class="main-grid">
+        <!-- LEFT COLUMN -->
+        <section class="left-column">
+          <p class="free-banner">
+            These top stories are <strong>free to read.</strong>
+          </p>
 
-        <!-- BOTTOM SECTION: "More to read for free." 2x2 grid with thumbnails -->
-        <section class="more-free-section">
-          <h2 class="section-heading">More to read for free.</h2>
+          <h2 class="lead-headline">
+            <a href="#"
+              >Nvidia C.E.O.’s Fate Is on the Line as Scandals Mount</a
+            >
+          </h2>
 
-          <div class="more-free-grid">
-            <article class="free-card">
-              <div class="free-card-text">
-                <h3>
-                  <a href="#">Old School, New School, Hip-Hop High School</a>
-                </h3>
-                <span class="comment-count">&#128488; 167</span>
-              </div>
-              <img
-                src="assets/images/img2.avif"
-                alt="Students standing in hallway"
-                class="free-card-thumb"
-              />
-            </article>
-
-            <article class="free-card">
-              <div class="free-card-text">
-                <span class="kicker">OPINION</span>
-                <h3><a href="#">It’s Roy Cohn All Over Again</a></h3>
-                <span class="comment-count">&#128488; 1.2K</span>
-              </div>
-              <img
-                src="assets/images/img1.avif"
-                alt="Portrait in shadow"
-                class="free-card-thumb"
-              />
-            </article>
-
-            <article class="free-card">
-              <div class="free-card-text">
+          <!-- Middle Split: 2 Stacked Articles + Video -->
+          <div class="lead-middle">
+            <div class="lead-articles">
+              <article class="lead-story">
                 <h3>
                   <a href="#"
-                    >The Unsettling Onscreen Sexuality of Alexander Skarsgard</a
+                    >Jensen Huang Is Under Scrutiny Over Ties to a Reputed Spy
+                    and an Executive</a
                   >
                 </h3>
-                <span class="comment-count">&#128488; 104</span>
+                <p class="summary">
+                  Nvidia’s board met to discuss Mr. Huang but made no
+                  announcement about any decision regarding the chip maker’s
+                  longtime leader.
+                </p>
+                <span class="meta-label">4 MIN READ</span>
+              </article>
+
+              <article class="lead-story">
+                <h3>
+                  <a href="#"
+                    >Huang Is Said to Have Had Relationship With Nvidia
+                    Executive Who Reports to Him</a
+                  >
+                </h3>
+                <p class="summary">
+                  The Nvidia leader is already under investigation over an
+                  affair with a Chinese businesswoman who U.S. intelligence
+                  determined was a Chinese spy.
+                </p>
+                <span class="meta-label">3 MIN READ</span>
+              </article>
+            </div>
+
+            <figure class="lead-media">
+              <div class="video-frame">
+                <video
+                  class="lead-video"
+                  controls
+                  poster="assets/videos/vid1.mp4"
+                >
+                  <source src="assets/videos/vid1.mp4" type="video/mp4" />
+                </video>
               </div>
+              <figcaption class="photo-credit">Jamie Leventhal</figcaption>
+            </figure>
+          </div>
+
+          <!-- Bottom 2-Column Headline Row -->
+          <div class="lead-bottom">
+            <article class="bottom-story">
+              <h3><a href="#">What to Know About the Turmoil at Nvidia</a></h3>
+              <span class="meta-label">4 MIN READ</span>
+            </article>
+
+            <article class="bottom-story">
+              <h3>
+                <a href="#"
+                  >Nvidia Shares Plummet as Board Is Said to Consider C.E.O.’s
+                  Future</a
+                >
+              </h3>
+              <span class="meta-label">2 MIN READ</span>
+            </article>
+          </div>
+
+          <!-- "More to read for free." 2x2 Grid -->
+          <section class="more-free">
+            <h3 class="section-label">More to read for free.</h3>
+
+            <div class="more-free-grid">
+              <article class="free-card">
+                <div class="free-card-body">
+                  <span class="kicker">OPINION</span>
+                  <h4><a href="#">It’s Roy Cohn All Over Again</a></h4>
+                  <span class="meta-label">&#128488; 1.2K</span>
+                </div>
+                <img
+                  src="assets/images/img1.avif"
+                  alt="Portrait in dark lighting"
+                  class="free-thumb"
+                />
+              </article>
+
+              <article class="free-card">
+                <div class="free-card-body">
+                  <span class="kicker">THE GREAT READ</span>
+                  <h4>
+                    <a href="#"
+                      >A Father’s Dream of Antarctica and a Son’s Unfinished
+                      Quest</a
+                    >
+                  </h4>
+                  <span class="meta-label">&#128488; 109</span>
+                </div>
+                <img
+                  src="assets/images/img2.avif"
+                  alt="Snowy mountain landscape"
+                  class="free-thumb"
+                />
+              </article>
+
+              <article class="free-card">
+                <div class="free-card-body">
+                  <h4>
+                    <a href="#"
+                      >The Unsettling Onscreen Sexuality of Alexander
+                      Skarsgard</a
+                    >
+                  </h4>
+                  <span class="meta-label">&#128488; 104</span>
+                </div>
+                <img
+                  src="assets/images/img1.avif"
+                  alt="Actor seated in red lighting"
+                  class="free-thumb"
+                />
+              </article>
+
+              <article class="free-card">
+                <div class="free-card-body">
+                  <h4><a href="#">How Healthy Are Cranberries?</a></h4>
+                  <span class="meta-label">&#128488; 103</span>
+                </div>
+                <img
+                  src="assets/images/img2.avif"
+                  alt="Fresh cranberries on a surface"
+                  class="free-thumb"
+                />
+              </article>
+            </div>
+          </section>
+
+          <!-- 2026 ELECTION RESULTS SECTION -->
+          <section class="election-section">
+            <div class="election-top-bar">
+              <div class="year-badge" aria-label="2026">
+                <span class="year-box is-red">2</span>
+                <span class="year-box is-blue">0</span>
+                <span class="year-box is-red">2</span>
+                <span class="year-box is-blue">6</span>
+              </div>
+
+              <ul class="election-nav">
+                <li><a href="#">Senate</a></li>
+                <li><a href="#">House</a></li>
+                <li><a href="#">Governor</a></li>
+                <li><a href="#">Precinct Maps</a></li>
+                <li><a href="#">How Americans Voted</a></li>
+              </ul>
+            </div>
+
+            <h2 class="election-headline">
+              <a href="#"
+                >Democrat Wins Mississippi Senate Seat in Major Upset</a
+              >
+            </h2>
+
+            <!-- 3-Column Feature Split -->
+            <div class="election-hero">
+              <div class="election-left">
+                <article class="election-story">
+                  <h3>
+                    <a href="#"
+                      >Streets Erupt in Celebration After Scott Colom’s Historic
+                      Win</a
+                    >
+                  </h3>
+                  <p class="summary">
+                    Mr. Colom, a prosecutor, will be the first Black senator
+                    elected from Mississippi since the post-Civil War
+                    Reconstruction period.
+                  </p>
+                  <span class="meta-label">&#128488; 147</span>
+                </article>
+
+                <article class="election-story">
+                  <h3>
+                    <a href="#"
+                      >How We’re Thinking About Mississippi Senate Coverage
+                      After Close Finish</a
+                    >
+                  </h3>
+                  <span class="meta-label">&#128488; 87</span>
+                </article>
+              </div>
+
+              <figure class="election-media">
+                <div class="election-photo-wrap">
+                  <img
+                    src="assets/images/mississippi-celebration.jpg"
+                    alt="Supporter holding a Colom Senate sign"
+                  />
+                  <span class="photo-overlay-credit"
+                    >Rory Doyle for The New York Times</span
+                  >
+                </div>
+
+                <div class="photo-dots-bar">
+                  <div class="dots-spacer"></div>
+                  <div class="dots-list">
+                    <span class="dot is-active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
+                  <div class="dots-arrows">
+                    <button
+                      type="button"
+                      class="mini-btn is-disabled"
+                      aria-label="Previous photo"
+                    >
+                      &#8249;
+                    </button>
+                    <button
+                      type="button"
+                      class="mini-btn"
+                      aria-label="Next photo"
+                    >
+                      &#8250;
+                    </button>
+                  </div>
+                </div>
+              </figure>
+
+              <div class="election-right">
+                <article class="election-story">
+                  <h3>
+                    <a href="#"
+                      >Colom Will Be Mississippi’s 3rd Black Senator. The First
+                      Two Served in the 1800s.</a
+                    >
+                  </h3>
+                  <span class="meta-label">2 MIN READ</span>
+                </article>
+              </div>
+            </div>
+
+            <!-- Balance of Power: Senate & House -->
+            <div class="power-grid">
+              <!-- Senate -->
+              <div class="chamber-box">
+                <div class="chamber-header">
+                  <div class="party-count is-dem">
+                    <span class="count-num">55</span>
+                    <span class="party-label">Democrats &#10004;</span>
+                  </div>
+                  <span class="chamber-title">Senate &#8250;</span>
+                  <div class="party-count is-rep">
+                    <span class="party-label">Republicans</span>
+                    <span class="count-num">44</span>
+                  </div>
+                </div>
+
+                <div class="power-bar">
+                  <div class="bar-dem" style="width: 55%"></div>
+                  <div class="bar-uncalled" style="width: 1%"></div>
+                  <div class="bar-rep" style="width: 44%"></div>
+                  <span class="majority-tick"></span>
+                </div>
+
+                <div class="chamber-footer">
+                  <span class="flips-text"
+                    >8 Flips &nbsp;<span class="muted-note"
+                      >34 seats not up for election</span
+                    ></span
+                  >
+                  <span class="majority-num">50</span>
+                  <span class="muted-note">31 seats not up for election</span>
+                </div>
+              </div>
+
+              <!-- House -->
+              <div class="chamber-box">
+                <div class="chamber-header">
+                  <div class="party-count is-dem">
+                    <span class="count-num">255</span>
+                    <span class="party-label">Democrats &#10004;</span>
+                  </div>
+                  <span class="chamber-title">House &#8250;</span>
+                  <div class="party-count is-rep">
+                    <span class="party-label">Republicans</span>
+                    <span class="count-num">168</span>
+                  </div>
+                </div>
+
+                <div class="power-bar">
+                  <div class="bar-dem" style="width: 59%"></div>
+                  <div class="bar-uncalled" style="width: 2%"></div>
+                  <div class="bar-rep" style="width: 39%"></div>
+                  <span class="majority-tick"></span>
+                </div>
+
+                <div class="chamber-footer is-centered">
+                  <span class="majority-num">218</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key Races & Full Results -->
+            <div class="races-row">
+              <div class="key-races">
+                <h4 class="races-heading">Key races</h4>
+                <div class="races-cards">
+                  <a href="#" class="race-card">
+                    <strong class="race-name">Miss. Senate</strong>
+                    <span class="race-winner is-dem">Colom (D) &#10004;</span>
+                    <span class="race-pct">&gt;95% votes in</span>
+                  </a>
+
+                  <a href="#" class="race-card">
+                    <strong class="race-name">Alaska Senate</strong>
+                    <span class="race-winner is-dem">Peltola (D) +1.6</span>
+                    <span class="race-pct">86% votes in</span>
+                  </a>
+
+                  <a href="#" class="race-card">
+                    <strong class="race-name"
+                      >Calif. Prop. 40 - Wealth Tax</strong
+                    >
+                    <span class="race-winner is-rep">No &#10004;</span>
+                    <span class="race-pct">89% votes in</span>
+                  </a>
+
+                  <a href="#" class="race-card">
+                    <strong class="race-name">Colo. 4th District</strong>
+                    <span class="race-winner is-dem">Laubacher (D)</span>
+                    <span class="race-pct">&gt;95% votes in</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="full-results">
+                <h4 class="races-heading">Full results</h4>
+                <ul class="results-tabs">
+                  <li><a href="#" class="is-active">Senate</a></li>
+                  <li><a href="#">House</a></li>
+                  <li><a href="#">Governors</a></li>
+                  <li><a href="#">Trends</a></li>
+                </ul>
+                <select class="state-select" aria-label="Select a state">
+                  <option value="">Select a state</option>
+                  <option value="ms">Mississippi</option>
+                  <option value="ak">Alaska</option>
+                  <option value="ca">California</option>
+                  <option value="co">Colorado</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <!-- BOTTOM WORLD FEATURE STORY -->
+          <section class="world-feature">
+            <div class="world-text">
+              <span class="kicker">THE WORLD</span>
+              <h3>
+                <a href="#"
+                  >Catch Up on Today’s News: A.I. and Market Whiplash</a
+                >
+              </h3>
+              <p class="summary">
+                A Times reporter who covers financial markets helps make sense
+                of tech turbulence.
+              </p>
+              <span class="meta-label">7 MIN READ</span>
+            </div>
+
+            <figure class="world-media">
+              <img
+                src="assets/images/stock-exchange.jpg"
+                alt="New York Stock Exchange trading floor"
+              />
+              <figcaption class="photo-credit">
+                Karsten Moran for The New York Times
+              </figcaption>
+            </figure>
+          </section>
+        </section>
+
+        <!-- RIGHT SIDEBAR COLUMN -->
+        <aside class="right-sidebar">
+          <article class="sidebar-lead">
+            <figure class="sidebar-lead-media">
               <img
                 src="assets/images/img2.avif"
-                alt="Students standing in hallway"
-                class="free-card-thumb"
+                alt="Two people talking in a hallway"
               />
-            </article>
-
-            <article class="free-card">
-              <div class="free-card-text">
-                <span class="kicker">OPINION</span>
-                <h3><a href="#">How Healthy are Cranberries</a></h3>
-                <span class="comment-count">&#128488; 103</span>
-              </div>
-              <img
-                src="assets/images/img1.avif"
-                alt="Portrait in shadow"
-                class="free-card-thumb"
-              />
-            </article>
-          </div>
-        </section>
-      </div>
-
-      <!-- left side bar -->
-
-      <div class="right-sidebar">
-        <div class="top-right-side">
-          <figure class="ride-side-media">
-            <video class="right-side-video" controls poster="video-poster.jpg">
-              <source src="assets/videos/vid4.mp4" type="video/mp4" />
-            </video>
-
-            <figcaption class="credit">Jamie Leventhal</figcaption>
-          </figure>
-          <div class="top-right-text">
-            <h3>Is It Rude to Ask to Stay With Friends?</h3>
-            <p>
-              When TikTok users posted a video critisizing couch suffers, It set
-              off a debate about what friends owe one another.
+              <figcaption class="photo-credit">Kiana Hayeri</figcaption>
+            </figure>
+            <h2><a href="#">Is It Rude to Ask to Stay With Friends?</a></h2>
+            <p class="summary">
+              When a TikTok user posted a video criticizing couch surfers, it
+              set off a debate about what friends owe one another.
             </p>
-            <span class="comment-count">&#128488; 284</span>
-          </div>
-        </div>
+            <span class="meta-label">&#128488; 284</span>
+          </article>
 
-        <!-- -----sidebar carousel---- -->
-        <section class="sidebar-carousel">
-          <div class="sidebar-subgrid"></div>
+          <!-- Two-Column Carousel Sub-grid -->
+          <section class="sidebar-carousel">
+            <div class="sub-grid">
+              <article class="sub-card">
+                <a href="#">
+                  <img
+                    src="assets/images/img1.avif"
+                    alt="Two men posing in tailored jackets"
+                    class="sub-thumb"
+                  />
+                  <h3>Do I Need to Dress Sexier?</h3>
+                  <span class="meta-label">&#128488; 86</span>
+                </a>
+              </article>
+
+              <article class="sub-card">
+                <a href="#">
+                  <img
+                    src="assets/images/img1.avif"
+                    alt="Plate of steak tacos with lime"
+                    class="sub-thumb"
+                  />
+                  <span class="kicker">RESTAURANT REVIEW</span>
+                  <h3>
+                    We’ve Got Bad News About Those $19 Tacos at New York’s El
+                    Califa de León
+                  </h3>
+                  <span class="meta-label">&#128488; 162</span>
+                </a>
+              </article>
+            </div>
+
+            <div class="carousel-controls">
+              <button
+                type="button"
+                class="carousel-btn is-disabled"
+                aria-label="Previous"
+              >
+                &#8249;
+              </button>
+              <button type="button" class="carousel-btn" aria-label="Next">
+                &#8250;
+              </button>
+            </div>
+          </section>
+
+          <!-- Opinion Section -->
+          <section class="opinion-section">
+            <h3 class="section-label">Opinion</h3>
+
+            <article class="opinion-card">
+              <div class="opinion-body">
+                <span class="author-name">ILAN STAVANS</span>
+                <h4><a href="#">The Spanish Shylock Problem</a></h4>
+                <span class="meta-label">4 MIN READ</span>
+              </div>
+            </article>
+          </section>
+
+            <!-- Featured Opinion Card with Wide Image -->
+          <article class="opinion-featured">
+            <span class="author-name">OLLIE BALLINGER AND ZACH TOOMBS</span>
+            <h4><a href="#">The View From Space the U.S. Government Doesn’t Want You to See</a></h4>
+            <figure class="opinion-media">
+              <img src="assets/images/view-from-space.jpg" alt="Portrait inside a wood-paneled room" />
+              <figcaption class="photo-credit">The New York Times</figcaption>
+            </figure>
+          </article>
+
+          <!-- Columnist Card with Circular Avatar -->
+          <article class="opinion-avatar-card">
+            <div class="opinion-body">
+              <span class="author-name">DAVID WALLACE-WELLS</span>
+              <h4><a href="#">The Political Center of Gravity Isn’t Trump. It’s Obama.</a></h4>
+              <span class="meta-label">8 MIN READ</span>
+            </div>
+            <img src="assets/images/david-wallace-wells.jpg" alt="David Wallace-Wells portrait" class="opinion-avatar" />
+          </article>
+
+          <!-- Opinion Card with Square Right Thumbnail -->
+          <article class="opinion-thumb-card">
+            <div class="opinion-body">
+              <span class="author-name">ANAND GIRIDHARADAS</span>
+              <h4><a href="#">Jensen Huang Betrayed the Leather Jacket Community</a></h4>
+              <span class="meta-label">4 MIN READ</span>
+            </div>
+            <img src="assets/images/leather-jacket.jpg" alt="Close-up of a black leather jacket zipper" class="opinion-square-thumb" />
+          </article>
+
+          <!-- 2x2 Opinion Columnist Grid -->
+          <div class="opinion-subgrid">
+            <article class="opinion-grid-item">
+              <span class="author-name">MATT LABASH</span>
+              <h4><a href="#">Trump. Miller. Blanche. Jordan. Things Could Get Worse, and They Probably Will.</a></h4>
+              <span class="meta-label">5 MIN READ</span>
+            </article>
+
+            <article class="opinion-grid-item">
+              <span class="author-name">LETTERS FROM OUR READERS</span>
+              <h4><a href="#">Whose Experience? What’s a Novelist to Do?</a></h4>
+              <span class="meta-label">5 MIN READ</span>
+            </article>
+
+            <article class="opinion-grid-item">
+              <span class="author-name">JESSICA GROSE</span>
+              <h4><a href="#">Some of the Right’s Worst Men Are Being Held Accountable</a></h4>
+              <span class="meta-label">&#128488; 89</span>
+            </article>
+
+            <article class="opinion-grid-item">
+              <span class="author-name">THOMAS B. EDSALL</span>
+              <h4><a href="#">Stephen Miller Is No Loser</a></h4>
+              <span class="meta-label">&#128488; 819</span>
+            </article>
+          </div>
         </section>
-      </div>
-    </main>
+
+        <!-- MOST SHARED SECTION -->
+        <section class="most-shared-section">
+          <h3 class="section-label">Most Shared</h3>
+
+          <article class="most-shared-card">
+            <div class="most-shared-body">
+              <h4><a href="#">White House Threatens Congress, Saying Aggressive Investigations Could Be Crime</a></h4>
+              <span class="meta-label">5 MIN READ</span>
+            </div>
+            <img src="assets/images/white-house-investigations.jpg" alt="Split portrait of two officials" class="most-shared-thumb" />
+          </article>
+        </section>
+
+        </aside>
+      </main>
+    </div>
   </body>
 </html>
