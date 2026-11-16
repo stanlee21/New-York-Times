@@ -185,8 +185,8 @@ video {
 .lead-story a:hover,
 .bottom-story a:hover,
 .free-card-body a:hover,
-.sidebar-lead h2 a:hover,
-.sub-card a:hover h3,
+.sidebar-lead a:hover,
+.sub-card a:hover,
 .opinion-body a:hover {
   color: #555;
 }
