@@ -1009,7 +1009,6 @@ video {
 .history-tip {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
-  /* border-bottom: 1px solid #333; */
   padding-bottom: 20px;
 }
 
