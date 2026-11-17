@@ -941,6 +941,65 @@ video {
   font-weight: 400;
 }
 
+/* U.S. Immigration Section */
+.imm-crackdown {
+  display: flex;
+  gap: 8px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.imm-crackdown ul {
+  display: flex;
+  gap: 8px;
+}
+
+.main-crackdown {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 0.85fr;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #333;
+}
+
+.crack-story h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+
+.left-crack {
+  border-right: 1px solid #ccc;
+  padding-right: 8px;
+}
+
+.crack-story {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.crack-story:last-child {
+  border-bottom: none;
+}
+
+.crack-story p {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+.crack-media {
+  width: 100%;
+}
+
+.crack-media img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
 /* Extended Opinion Cards */
 .opinion-card {
   padding-bottom: 14px;
