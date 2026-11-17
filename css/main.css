@@ -483,7 +483,7 @@ video {
 }
 
 .year-badge {
-  display: inline-flex;
+  display: flex;
   gap: 2px;
 }
 
@@ -494,7 +494,7 @@ video {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 700;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -850,6 +850,56 @@ video {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
+}
+
+/* war in the middle east section */
+.war-middle-east {
+  margin-top: 18px;
+  border-top: 1px solid #333;
+  padding-top: 12px;
+}
+
+.war-east-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #333;
+}
+
+.war-east-nav ul {
+  display: flex;
+  gap: 10px;
+  color: #333;
+}
+
+.war-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+  padding-top: 18px;
+}
+
+.war-media img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.war-article {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.war-article:last-child {
+  border-bottom: none;
+  margin-top: 18px;
+}
+
+.war-last-line {
+  border-bottom: 1px solid #333;
+  padding-bottom: 18px;
 }
 
 /* Extended Opinion Cards */
