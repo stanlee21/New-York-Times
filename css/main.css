@@ -1390,3 +1390,46 @@ video {
 .video-caption a:hover {
   text-decoration: underline;
 }
+
+/* more news section styling */
+
+.more-news-section {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid #121212;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 18px;
+}
+
+.news-text a:hover {
+  color: #555;
+}
+
+.more-news-hero {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 0.85fr;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.more-news-left .news-story:first-child {
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+
+.news-story h3 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.news-story .red-live {
+  color: red;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+.news-story .live {
+  font-weight: bold;
+}
