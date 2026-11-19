@@ -1071,7 +1071,7 @@ video {
   margin: 0 0 10px;
 }
 
-.weather-heading a {
+.weather-loc {
   font-weight: 400;
   color: #555;
 }
@@ -1101,7 +1101,7 @@ video {
   margin: 0 0 10px;
 }
 
-.weather-desc a {
+.forcast-link{
   font-weight: 700;
   color: #121212;
   text-decoration: none;
@@ -1149,7 +1149,7 @@ video {
   font-size: 12px;
 }
 
-.rain-item a {
+.rain-link{
   color: #363636;
   text-decoration: none;
 }
@@ -1333,7 +1333,7 @@ video {
   border-left: 1px solid #e2e2e2;
 }
 
-.video-frame {
+.video-reel {
   position: relative;
   margin: 0 0 10px;
 }
@@ -1382,7 +1382,7 @@ video {
   margin: 0;
 }
 
-.video-caption a {
+.video-link{
   color: #121212;
   text-decoration: none;
 }
