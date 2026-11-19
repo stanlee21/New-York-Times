@@ -1036,6 +1036,130 @@ video {
   padding-right: 12px;
 }
 
+/* The weather css styliing section */
+
+.weather-box {
+  display: flex;
+  border-top: 2px solid #121212;
+  padding: 16px 0;
+  margin-top: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.weather-card {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weather-card:first-child {
+  padding-left: 0;
+}
+
+.weather-card:last-child {
+  padding-right: 0;
+}
+
+.side-border {
+  border-left: 1px solid #e2e2e2;
+}
+
+.weather-heading {
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.weather-heading a {
+  font-weight: 400;
+  color: #555;
+}
+
+/* Column 1 */
+
+.temp-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.big-temp {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.cloud-big {
+  width: 55px;
+  height: auto;
+}
+
+.weather-desc {
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.weather-desc a {
+  font-weight: 700;
+  color: #121212;
+  text-decoration: none;
+}
+
+/* Column 2 */
+
+.day-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.day-label {
+  width: 90px;
+}
+
+.cloud-small {
+  width: 24px;
+  height: auto;
+}
+
+.high-temp {
+  font-weight: 700;
+}
+
+.low-temp {
+  color: #727272;
+}
+
+/* Column 3 */
+
+.rain-item {
+  font-size: 13px;
+  margin: 0 0 6px;
+}
+
+.some-tag {
+  background-color: #f6e3a1;
+  color: #5c4810;
+  padding: 2px 8px;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.rain-item a {
+  color: #363636;
+  text-decoration: none;
+}
+
+.source-note {
+  font-size: 11px;
+  color: #727272;
+  margin-top: 8px;
+}
+
 /* Extended Opinion Cards */
 .opinion-card {
   padding-bottom: 14px;
