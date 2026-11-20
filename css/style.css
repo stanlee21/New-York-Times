@@ -148,6 +148,12 @@ small {
 
 
 /* Wirecutter section */
+.double-line {
+  border-top: 1px solid #999;
+  border-bottom:1px solid #999;
+  height: 1px;
+  margin: 10px;
+}
 
 .wirecutter {
   margin-top: 20px;
@@ -171,7 +177,6 @@ small {
   font-size: 14px;
 }
 
-
 .wirecutter .left hr,
 .wirecutter .right hr {
   width: 100%;
@@ -180,12 +185,66 @@ small {
   margin: 18px 0;
 }
 
-
 .wirecutter .right {
   border-left: 1px solid #ddd;
   padding-left: 12px;
 }
 
+/* Games section */
+
+.double-line {
+  border-top: 1px solid #999;
+  border-bottom:1px solid #999;
+  height: 3px;
+  margin: 10px;
+}
+
+.games { 
+  margin-top: 30px;
+}
+
+.games .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.games .game {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.games .game h4 {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.games .game p {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.games .icon {
+  width: 65px;
+  height: 65px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.games .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+
+/* Tablet screens */
 
 @media screen and (max-width: 900px) {
 
@@ -203,9 +262,14 @@ small {
     padding-left: 0;
   }
 
+  .games .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 
+/* Mobile screens */
 
 @media screen and (max-width: 600px) {
 
@@ -233,4 +297,218 @@ small {
     justify-content: flex-start;
   }
 
+  .games .content {
+    grid-template-columns: 1fr;
+  }
+
+  .games .game {
+    justify-content: space-between;
+  }
+
+}
+
+/* News section */
+
+.news {
+  margin-top: 30px;
+}
+
+/* "NEWS" title is smaller than the other section titles */
+.news h3 {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* 5 equal columns instead of the 3 columns used by .content elsewhere */
+.news .content {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 35px 20px;
+}
+
+/* Small category title (World News, U.S. News...) */
+.news .column h4 {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+/* Image on top of each column */
+.news .column img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+  background: #ddd; /* grey box shows if an image is missing */
+  margin-bottom: 10px;
+}
+
+/* Headline links under the image */
+.news .column a {
+  display: block;
+  font-size: 13px;
+  line-height: 1.3;
+  color: #222;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.news .column a:hover {
+  text-decoration: underline;
+}
+
+
+/* Tablet screens */
+
+@media screen and (max-width: 900px) {
+  .news .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* Mobile screens */
+
+@media screen and (max-width: 600px) {
+  .news .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* News, Opinion and Arts sections (they all share these styles) */
+
+.news {
+  margin-top: 50px; /* space between sections */
+}
+
+/* Section title: NEWS, OPINION, ARTS */
+.news h3 {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 5 equal columns instead of the 3 columns used by .content elsewhere */
+.news .content {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 35px 20px;
+}
+
+/* Small category title (Opinion, Movies, Dance...) */
+.news .column h4 {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+/* Image on top of each column */
+.news .column img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+  background: #ddd; /* grey box shows if an image is missing */
+  margin-bottom: 10px;
+}
+
+/* Headline links under the image */
+.news .column a {
+  display: block;
+  font-size: 13px;
+  line-height: 1.3;
+  color: #222;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.news .column a:hover {
+  text-decoration: underline;
+}
+
+
+/* Tablet screens */
+
+@media screen and (max-width: 900px) {
+  .news .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* Mobile screens */
+
+@media screen and (max-width: 600px) {
+  .news .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* News, Opinion, Arts and Living sections (they all share these styles) */
+
+.news {
+  margin-top: 50px; /* space between sections */
+}
+
+/* Section title: NEWS, OPINION, ARTS, LIVING */
+.news h3 {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 5 equal columns instead of the 3 columns used by .content elsewhere */
+.news .content {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 35px 20px;
+}
+
+/* Small category title (Style, Food, Travel...) */
+.news .column h4 {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+/* Image on top of each column */
+.news .column img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+  background: #ddd; /* grey box shows if an image is missing */
+  margin-bottom: 10px;
+}
+
+/* Headline links under the image */
+.news .column a {
+  display: block;
+  font-size: 13px;
+  line-height: 1.3;
+  color: #222;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.news .column a:hover {
+  text-decoration: underline;
+}
+
+
+/* Tablet screens */
+
+@media screen and (max-width: 900px) {
+  .news .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* Mobile screens */
+
+@media screen and (max-width: 600px) {
+  .news .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
