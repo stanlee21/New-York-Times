@@ -26,7 +26,6 @@ hr {
   padding-top: 5px;
 }
 
-
 /* Main content */
 
 .content {
@@ -35,7 +34,6 @@ hr {
   gap: 12px;
   align-items: start;
 }
-
 
 /* Left section */
 
@@ -57,7 +55,6 @@ hr {
   margin-bottom: 10px;
 }
 
-
 /* Culture section */
 
 .culture .content {
@@ -67,7 +64,6 @@ hr {
 .culture .left {
   justify-content: center;
 }
-
 
 /* Middle image */
 
@@ -89,7 +85,6 @@ hr {
   margin-top: 5px;
 }
 
-
 /* Right section */
 
 .right {
@@ -109,7 +104,6 @@ hr {
   color: #555;
   margin-bottom: 15px;
 }
-
 
 /* Stories */
 
@@ -146,11 +140,11 @@ small {
   color: #777;
 }
 
-
 /* Wirecutter section */
+
 .double-line {
   border-top: 1px solid #999;
-  border-bottom:1px solid #999;
+  border-bottom: 1px solid #999;
   height: 1px;
   margin: 10px;
 }
@@ -194,12 +188,12 @@ small {
 
 .double-line {
   border-top: 1px solid #999;
-  border-bottom:1px solid #999;
+  border-bottom: 1px solid #999;
   height: 3px;
   margin: 10px;
 }
 
-.games { 
+.games {
   margin-top: 30px;
 }
 
@@ -243,11 +237,9 @@ small {
   display: block;
 }
 
-
 /* Tablet screens */
 
 @media screen and (max-width: 900px) {
-
   .container {
     width: 90%;
   }
@@ -265,14 +257,11 @@ small {
   .games .content {
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
-
 
 /* Mobile screens */
 
 @media screen and (max-width: 600px) {
-
   .container {
     width: 94%;
   }
@@ -304,7 +293,6 @@ small {
   .games .game {
     justify-content: space-between;
   }
-
 }
 
 /* News section */
@@ -314,6 +302,7 @@ small {
 }
 
 /* "NEWS" title is smaller than the other section titles */
+
 .news h3 {
   font-size: 11px;
   font-family: Arial, sans-serif;
@@ -321,12 +310,14 @@ small {
 }
 
 /* 5 equal columns instead of the 3 columns used by .content elsewhere */
+
 .news .content {
   grid-template-columns: repeat(5, 1fr);
   gap: 35px 20px;
 }
 
 /* Small category title (World News, U.S. News...) */
+
 .news .column h4 {
   font-family: Arial, sans-serif;
   font-size: 11px;
@@ -334,16 +325,18 @@ small {
 }
 
 /* Image on top of each column */
+
 .news .column img {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
-  background: #ddd; /* grey box shows if an image is missing */
+  background: #ddd;
   margin-bottom: 10px;
 }
 
 /* Headline links under the image */
+
 .news .column a {
   display: block;
   font-size: 13px;
@@ -357,7 +350,6 @@ small {
   text-decoration: underline;
 }
 
-
 /* Tablet screens */
 
 @media screen and (max-width: 900px) {
@@ -365,7 +357,6 @@ small {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 
 /* Mobile screens */
 
@@ -378,10 +369,11 @@ small {
 /* News, Opinion and Arts sections (they all share these styles) */
 
 .news {
-  margin-top: 50px; /* space between sections */
+  margin-top: 50px;
 }
 
 /* Section title: NEWS, OPINION, ARTS */
+
 .news h3 {
   font-size: 11px;
   font-family: Arial, sans-serif;
@@ -390,12 +382,14 @@ small {
 }
 
 /* 5 equal columns instead of the 3 columns used by .content elsewhere */
+
 .news .content {
   grid-template-columns: repeat(5, 1fr);
   gap: 35px 20px;
 }
 
 /* Small category title (Opinion, Movies, Dance...) */
+
 .news .column h4 {
   font-family: Arial, sans-serif;
   font-size: 11px;
@@ -403,16 +397,18 @@ small {
 }
 
 /* Image on top of each column */
+
 .news .column img {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
-  background: #ddd; /* grey box shows if an image is missing */
+  background: #ddd;
   margin-bottom: 10px;
 }
 
 /* Headline links under the image */
+
 .news .column a {
   display: block;
   font-size: 13px;
@@ -426,7 +422,6 @@ small {
   text-decoration: underline;
 }
 
-
 /* Tablet screens */
 
 @media screen and (max-width: 900px) {
@@ -434,7 +429,6 @@ small {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 
 /* Mobile screens */
 
@@ -447,10 +441,11 @@ small {
 /* News, Opinion, Arts and Living sections (they all share these styles) */
 
 .news {
-  margin-top: 50px; /* space between sections */
+  margin-top: 50px;
 }
 
 /* Section title: NEWS, OPINION, ARTS, LIVING */
+
 .news h3 {
   font-size: 11px;
   font-family: Arial, sans-serif;
@@ -459,12 +454,14 @@ small {
 }
 
 /* 5 equal columns instead of the 3 columns used by .content elsewhere */
+
 .news .content {
   grid-template-columns: repeat(5, 1fr);
   gap: 35px 20px;
 }
 
 /* Small category title (Style, Food, Travel...) */
+
 .news .column h4 {
   font-family: Arial, sans-serif;
   font-size: 11px;
@@ -472,16 +469,18 @@ small {
 }
 
 /* Image on top of each column */
+
 .news .column img {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
-  background: #ddd; /* grey box shows if an image is missing */
+  background: #ddd;
   margin-bottom: 10px;
 }
 
 /* Headline links under the image */
+
 .news .column a {
   display: block;
   font-size: 13px;
@@ -495,7 +494,6 @@ small {
   text-decoration: underline;
 }
 
-
 /* Tablet screens */
 
 @media screen and (max-width: 900px) {
@@ -503,7 +501,6 @@ small {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 
 /* Mobile screens */
 
