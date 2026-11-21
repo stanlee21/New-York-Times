@@ -1610,3 +1610,201 @@ video {
   height: 48px;
   flex-shrink: 0;
 }
+
+/* ---------------- Well Section ---------------- */
+
+.well-section {
+  border-top: 1px solid #121212;
+  padding: 14px 0 24px;
+  margin-top: 24px;
+}
+
+.well-heading {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #121212;
+  margin: 0 0 14px;
+}
+
+.well-row {
+  display: flex;
+  gap: 18px;
+}
+
+.well-card {
+  flex: 1;
+}
+
+.well-media {
+  margin: 0 0 8px;
+}
+
+.well-thumb {
+  display: block;
+  width: 100%;
+  height: 195px;
+  object-fit: cover;
+}
+
+.well-credit {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  color: #727272;
+  text-align: right;
+  margin-top: 4px;
+}
+
+.well-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 6px;
+}
+
+.well-link {
+  color: #121212;
+  text-decoration: none;
+}
+
+.well-link:hover {
+  text-decoration: underline;
+}
+
+.well-comments {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #727272;
+}
+
+/* ---------------- Latest Shows Section ---------------- */
+
+.shows-section {
+  border-top: 1px solid #121212;
+  padding: 14px 0 24px;
+  margin-top: 24px;
+}
+
+.shows-heading {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #121212;
+  margin: 0 0 14px;
+}
+
+.shows-row {
+  display: flex;
+  gap: 14px;
+}
+
+.show-card {
+  flex: 1;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+}
+
+.show-ezra {
+  background-color: #55616d;
+}
+
+.show-pablo {
+  background-color: #345238;
+}
+
+.show-modern-love {
+  background-color: #b75c55;
+}
+
+.show-interesting {
+  background-color: #4f586b;
+}
+
+.show-card-link {
+  display: flex;
+  height: 185px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.show-left {
+  flex: 1.15;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.show-brand {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.show-badge {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.show-name {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.15;
+}
+
+.show-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.show-play-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: rgb(18 18 18 / 45%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.show-photo {
+  flex: 0.85;
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.shows-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.carousel-arrow {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid #121212;
+  background-color: #fff;
+  color: #121212;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.is-disabled {
+  border-color: #dcdcdc;
+  color: #bdbdbd;
+  cursor: default;
+}
