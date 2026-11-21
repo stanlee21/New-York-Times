@@ -1433,3 +1433,180 @@ video {
 .news-story .live {
   font-weight: bold;
 }
+
+/* plain text grid section */
+
+.main-text-grid {
+  padding-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-top: 18px;
+  margin-right: 12px;
+  padding-right: 12px;
+}
+
+.plain-text {
+  border-right: 1px solid #ccc;
+  padding-right: 6px;
+}
+
+.plain-text h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* ---------------- The Athletic Section ---------------- */
+
+.athletic-section {
+  border-top: 1px solid #121212;
+  padding: 14px 0 24px;
+  margin-top: 24px;
+}
+
+.athletic-header {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #121212;
+  margin: 0 0 14px;
+}
+
+.athletic-subtitle {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  color: #555;
+  margin-left: 6px;
+}
+
+.athletic-row {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Column 1: Left Stacked Stories */
+
+.athletic-left-col {
+  flex: 1.1;
+  padding-right: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.athletic-lead-item {
+  padding: 10px 0;
+}
+
+.athletic-lead-item:first-child {
+  padding-top: 0;
+}
+
+.athletic-lead-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 6px;
+}
+
+.athletic-story-link {
+  color: #121212;
+  text-decoration: none;
+}
+
+.athletic-story-link:hover {
+  text-decoration: underline;
+}
+
+.athletic-summary {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  line-height: 1.35;
+  color: #555;
+  margin: 0;
+}
+
+/* Column 2: Center Photo */
+
+.athletic-center-col {
+  flex: 1.9;
+  margin: 0;
+  padding-right: 18px;
+}
+
+.athletic-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.athletic-credit {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #727272;
+  text-align: right;
+  margin-top: 6px;
+}
+
+/* Column 3: Right Headline List & Game */
+
+.athletic-right-col {
+  flex: 1;
+  border-left: 1px solid #e2e2e2;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.athletic-side-item {
+  padding: 12px 0;
+}
+
+.athletic-side-item:first-child {
+  padding-top: 0;
+}
+
+.athletic-side-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.athletic-side-link {
+  color: #121212;
+  text-decoration: none;
+}
+
+.athletic-side-link:hover {
+  text-decoration: underline;
+}
+
+.athletic-top-rule {
+  border-top: 1px solid #e2e2e2;
+}
+
+.athletic-game-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.athletic-game-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
