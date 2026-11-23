@@ -102,7 +102,7 @@ video {
 }
 
 .masthead-title {
-  font-family: "Times New Roman", Georgia, serif;
+  font-family: "UnifrakturMaguntia", "Old English Text MT", serif;
   font-size: 46px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -154,6 +154,12 @@ video {
 .left-column {
   border-right: 1px solid #e2e2e2;
   padding-right: 24px;
+}
+
+.main-square-border {
+  border: 1px solid black;
+  padding: 12px;
+  width: 100%;
 }
 
 .free-banner {
@@ -468,7 +474,6 @@ video {
 .election-section {
   margin-top: 20px;
   padding-top: 14px;
-  border-top: 1px solid #121212;
   border-bottom: 1px solid #e2e2e2;
   padding-bottom: 18px;
 }

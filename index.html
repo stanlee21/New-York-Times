@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=UnifrakturMaguntia&display=swap"
+      rel="stylesheet"
+    />
+
     <title>The New York Times</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -85,148 +92,152 @@
       <main class="main-grid">
         <!-- LEFT COLUMN -->
         <section class="left-column">
-          <p class="free-banner">
-            These top stories are <strong>free to read.</strong>
-          </p>
+          <div class="main-square-border">
+            <p class="free-banner">
+              These top stories are <strong>free to read.</strong>
+            </p>
 
-          <h2 class="lead-headline">
-            <a href="#"
-              >Nvidia C.E.O.’s Fate Is on the Line as Scandals Mount</a
-            >
-          </h2>
+            <h2 class="lead-headline">
+              <a href="#"
+                >Nvidia C.E.O.’s Fate Is on the Line as Scandals Mount</a
+              >
+            </h2>
 
-          <!-- Middle Split: 2 Stacked Articles + Video -->
-          <div class="lead-middle">
-            <div class="lead-articles">
-              <article class="lead-story">
-                <h3>
-                  <a href="#"
-                    >Jensen Huang Is Under Scrutiny Over Ties to a Reputed Spy
-                    and an Executive</a
+            <!-- Middle Split: 2 Stacked Articles + Video -->
+            <div class="lead-middle">
+              <div class="lead-articles">
+                <article class="lead-story">
+                  <h3>
+                    <a href="#"
+                      >Jensen Huang Is Under Scrutiny Over Ties to a Reputed Spy
+                      and an Executive</a
+                    >
+                  </h3>
+                  <p class="summary">
+                    Nvidia’s board met to discuss Mr. Huang but made no
+                    announcement about any decision regarding the chip maker’s
+                    longtime leader.
+                  </p>
+                  <span class="meta-label">4 MIN READ</span>
+                </article>
+
+                <article class="lead-story">
+                  <h3>
+                    <a href="#"
+                      >Huang Is Said to Have Had Relationship With Nvidia
+                      Executive Who Reports to Him</a
+                    >
+                  </h3>
+                  <p class="summary">
+                    The Nvidia leader is already under investigation over an
+                    affair with a Chinese businesswoman who U.S. intelligence
+                    determined was a Chinese spy.
+                  </p>
+                  <span class="meta-label">3 MIN READ</span>
+                </article>
+              </div>
+
+              <figure class="lead-media">
+                <div class="video-frame">
+                  <video
+                    class="lead-video"
+                    controls
+                    poster="assets/videos/vid1.mp4"
                   >
+                    <source src="assets/videos/vid1.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <figcaption class="photo-credit">Jamie Leventhal</figcaption>
+              </figure>
+            </div>
+
+            <!-- Bottom 2-Column Headline Row -->
+            <div class="lead-bottom">
+              <article class="bottom-story">
+                <h3>
+                  <a href="#">What to Know About the Turmoil at Nvidia</a>
                 </h3>
-                <p class="summary">
-                  Nvidia’s board met to discuss Mr. Huang but made no
-                  announcement about any decision regarding the chip maker’s
-                  longtime leader.
-                </p>
                 <span class="meta-label">4 MIN READ</span>
               </article>
 
-              <article class="lead-story">
+              <article class="bottom-story">
                 <h3>
                   <a href="#"
-                    >Huang Is Said to Have Had Relationship With Nvidia
-                    Executive Who Reports to Him</a
+                    >Nvidia Shares Plummet as Board Is Said to Consider C.E.O.’s
+                    Future</a
                   >
                 </h3>
-                <p class="summary">
-                  The Nvidia leader is already under investigation over an
-                  affair with a Chinese businesswoman who U.S. intelligence
-                  determined was a Chinese spy.
-                </p>
-                <span class="meta-label">3 MIN READ</span>
+                <span class="meta-label">2 MIN READ</span>
               </article>
             </div>
 
-            <figure class="lead-media">
-              <div class="video-frame">
-                <video
-                  class="lead-video"
-                  controls
-                  poster="assets/videos/vid1.mp4"
-                >
-                  <source src="assets/videos/vid1.mp4" type="video/mp4" />
-                </video>
+            <!-- "More to read for free." 2x2 Grid -->
+            <section class="more-free">
+              <h3 class="section-label">More to read for free.</h3>
+
+              <div class="more-free-grid">
+                <article class="free-card">
+                  <div class="free-card-body">
+                    <span class="kicker">OPINION</span>
+                    <h4><a href="#">It’s Roy Cohn All Over Again</a></h4>
+                    <span class="meta-label">&#128488; 1.2K</span>
+                  </div>
+                  <img
+                    src="assets/images/img1.avif"
+                    alt="Portrait in dark lighting"
+                    class="free-thumb"
+                  />
+                </article>
+
+                <article class="free-card">
+                  <div class="free-card-body">
+                    <span class="kicker">THE GREAT READ</span>
+                    <h4>
+                      <a href="#"
+                        >A Father’s Dream of Antarctica and a Son’s Unfinished
+                        Quest</a
+                      >
+                    </h4>
+                    <span class="meta-label">&#128488; 109</span>
+                  </div>
+                  <img
+                    src="assets/images/img2.avif"
+                    alt="Snowy mountain landscape"
+                    class="free-thumb"
+                  />
+                </article>
+
+                <article class="free-card">
+                  <div class="free-card-body">
+                    <h4>
+                      <a href="#"
+                        >The Unsettling Onscreen Sexuality of Alexander
+                        Skarsgard</a
+                      >
+                    </h4>
+                    <span class="meta-label">&#128488; 104</span>
+                  </div>
+                  <img
+                    src="assets/images/img1.avif"
+                    alt="Actor seated in red lighting"
+                    class="free-thumb"
+                  />
+                </article>
+
+                <article class="free-card">
+                  <div class="free-card-body">
+                    <h4><a href="#">How Healthy Are Cranberries?</a></h4>
+                    <span class="meta-label">&#128488; 103</span>
+                  </div>
+                  <img
+                    src="assets/images/img2.avif"
+                    alt="Fresh cranberries on a surface"
+                    class="free-thumb"
+                  />
+                </article>
               </div>
-              <figcaption class="photo-credit">Jamie Leventhal</figcaption>
-            </figure>
+            </section>
           </div>
-
-          <!-- Bottom 2-Column Headline Row -->
-          <div class="lead-bottom">
-            <article class="bottom-story">
-              <h3><a href="#">What to Know About the Turmoil at Nvidia</a></h3>
-              <span class="meta-label">4 MIN READ</span>
-            </article>
-
-            <article class="bottom-story">
-              <h3>
-                <a href="#"
-                  >Nvidia Shares Plummet as Board Is Said to Consider C.E.O.’s
-                  Future</a
-                >
-              </h3>
-              <span class="meta-label">2 MIN READ</span>
-            </article>
-          </div>
-
-          <!-- "More to read for free." 2x2 Grid -->
-          <section class="more-free">
-            <h3 class="section-label">More to read for free.</h3>
-
-            <div class="more-free-grid">
-              <article class="free-card">
-                <div class="free-card-body">
-                  <span class="kicker">OPINION</span>
-                  <h4><a href="#">It’s Roy Cohn All Over Again</a></h4>
-                  <span class="meta-label">&#128488; 1.2K</span>
-                </div>
-                <img
-                  src="assets/images/img1.avif"
-                  alt="Portrait in dark lighting"
-                  class="free-thumb"
-                />
-              </article>
-
-              <article class="free-card">
-                <div class="free-card-body">
-                  <span class="kicker">THE GREAT READ</span>
-                  <h4>
-                    <a href="#"
-                      >A Father’s Dream of Antarctica and a Son’s Unfinished
-                      Quest</a
-                    >
-                  </h4>
-                  <span class="meta-label">&#128488; 109</span>
-                </div>
-                <img
-                  src="assets/images/img2.avif"
-                  alt="Snowy mountain landscape"
-                  class="free-thumb"
-                />
-              </article>
-
-              <article class="free-card">
-                <div class="free-card-body">
-                  <h4>
-                    <a href="#"
-                      >The Unsettling Onscreen Sexuality of Alexander
-                      Skarsgard</a
-                    >
-                  </h4>
-                  <span class="meta-label">&#128488; 104</span>
-                </div>
-                <img
-                  src="assets/images/img1.avif"
-                  alt="Actor seated in red lighting"
-                  class="free-thumb"
-                />
-              </article>
-
-              <article class="free-card">
-                <div class="free-card-body">
-                  <h4><a href="#">How Healthy Are Cranberries?</a></h4>
-                  <span class="meta-label">&#128488; 103</span>
-                </div>
-                <img
-                  src="assets/images/img2.avif"
-                  alt="Fresh cranberries on a surface"
-                  class="free-thumb"
-                />
-              </article>
-            </div>
-          </section>
 
           <!-- 2026 ELECTION RESULTS SECTION -->
           <section class="election-section">
@@ -1299,9 +1310,9 @@
                 src="assets/images/img5.avif"
                 alt="Supporter holding a Colom Senate sign"
               />
-              <span class="photo-overlay-credit"
+              <!-- <span class="photo-overlay-credit"
                 >Bing Quan for The New York Times</span
-              >
+              > -->
             </div>
 
             <div class="photo-dots-bar">
