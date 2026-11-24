@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -381,7 +382,7 @@ small {
   margin-bottom: 20px;
 }
 
-/* 5 equal columns instead of the 3 columns used by .content elsewhere */
+/* 5 equal columns instead of the 3 columns */
 
 .news .content {
   grid-template-columns: repeat(5, 1fr);
@@ -506,6 +507,151 @@ small {
 
 @media screen and (max-width: 600px) {
   .news .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Footer section */
+
+.site-footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Logo image on top */
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* 5 link columns + 1 slightly bigger Account column */
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) 1.6fr;
+  gap: 20px;
+}
+
+/* Column titles: NEWS, ARTS... */
+
+.footer-column h4 {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Remove the dots from the lists */
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column li {
+  margin-bottom: 9px;
+}
+
+.footer-column a {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #222;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+/* Account column */
+
+.account {
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+}
+
+.account a {
+  white-space: nowrap;
+}
+
+/* Big bold links with an icon */
+
+.big-links li {
+  margin-bottom: 8px;
+}
+
+.big-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.big-links img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+/* Small links */
+
+.small-links a {
+  font-size: 11px;
+}
+
+.small-links li {
+  margin-bottom: 4px;
+}
+
+.account hr {
+  margin: 8px 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Bottom row of small links */
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #555;
+}
+
+.footer-bottom a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Tablet screens */
+
+@media screen and (max-width: 900px) {
+  .footer-links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .account {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+/* Mobile screens */
+
+@media screen and (max-width: 600px) {
+  .footer-links {
     grid-template-columns: repeat(2, 1fr);
   }
 }
