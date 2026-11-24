@@ -279,11 +279,6 @@ small {
   margin-bottom: 10px;
 }
 
-.news .column a:hover,
-.news .health a:hover {
-  text-decoration: underline;
-}
-
 /* Footer section */
 
 .site-footer {
@@ -397,6 +392,13 @@ small {
 }
 
 .site-footer .footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* News hover effects */
+
+.news .column a:hover,
+.news .health a:hover {
   text-decoration: underline;
 }
 
