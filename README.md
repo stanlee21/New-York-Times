@@ -1,12 +1,12 @@
 # New York Times Homepage Clone
 
-A collaborative frontend development project focused on recreating the homepage layout of The New York Times website using HTML5 and CSS3.
+A collaborative frontend development project focused on recreating the homepage layout of The New York Times site using HTML5 and CSS3.
 
 ## About the Project
 
-This project is a recreation of The New York Times homepage, developed as a team project by three frontend developers.
+This project is a recreation of The New York Times homepage, developed as a team project by two frontend developers.
 
-The goal is to practise frontend development fundamentals, improve our understanding of website layouts and responsive design, and gain practical experience working collaboratively with Git and GitHub.
+The goal is to practise frontend development fundamentals, improve our understanding of the site layouts and responsive design, and gain practical experience working collaboratively with Git and GitHub.
 
 Our focus is on recreating the overall homepage structure, including its header, navigation, news sections, featured stories and footer.
 
@@ -24,7 +24,7 @@ Our focus is on recreating the overall homepage structure, including its header,
 
 ## Technologies Used
 
-- **HTML5** – For structuring the website.
+- **HTML5** – For structuring the site.
 - **CSS3** – For styling and page layouts.
 - **Git** – For version control.
 - **GitHub** – For repository hosting and team collaboration.
@@ -66,13 +66,12 @@ New_York_Time_Clone/
 
 ## Team Members and Responsibilities
 
-This project is being developed by a team of three.
+This project is being developed by a team of two.
 
 | Team Member | Responsibility |
 | --- | --- |
 | Developer 1 | Header, branding and navigation |
-| Developer 2 | Main homepage and featured news sections |
-| Developer 3 | Secondary news sections and footer |
+| Developer 2 | culter and lifestyle |
 
 All team members will contribute to testing, styling, responsiveness and code reviews.
 
