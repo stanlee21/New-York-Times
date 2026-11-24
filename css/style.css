@@ -186,15 +186,12 @@ small {
 
 /* Games section */
 
-.double-line {
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-  height: 3px;
-  margin: 10px;
-}
-
 .games {
   margin-top: 30px;
+}
+
+.games .double-line {
+  height: 3px;
 }
 
 .games .content {
