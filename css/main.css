@@ -101,13 +101,8 @@ video {
   color: #333;
 }
 
-.masthead-title {
-  font-family: UnifrakturMaguntia, "Old English Text MT", serif;
-  font-size: 46px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  text-align: center;
-  line-height: 1;
+.masthead-title img {
+  width: 450px;
 }
 
 .main-nav {
