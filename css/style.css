@@ -321,10 +321,6 @@ small {
   text-decoration: none;
 }
 
-.site-footer .footer-column a:hover {
-  text-decoration: underline;
-}
-
 /* Account column */
 
 .site-footer .account {
@@ -389,6 +385,10 @@ small {
 .site-footer .footer-bottom a {
   color: #555;
   text-decoration: none;
+}
+
+.site-footer .footer-column a:hover {
+  text-decoration: underline;
 }
 
 .site-footer .footer-bottom a:hover {
