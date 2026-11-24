@@ -234,142 +234,11 @@ small {
   display: block;
 }
 
-/* Tablet screens */
-
-@media screen and (max-width: 900px) {
-  .container {
-    width: 90%;
-  }
-
-  .content {
-    grid-template-columns: 1fr 1.5fr;
-  }
-
-  .right {
-    grid-column: 1 / 3;
-    border-left: none;
-    padding-left: 0;
-  }
-
-  .games .content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile screens */
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: 94%;
-  }
-
-  .content {
-    grid-template-columns: 1fr;
-  }
-
-  .left,
-  .middle,
-  .right {
-    width: 100%;
-  }
-
-  .right {
-    grid-column: auto;
-    border-left: none;
-    padding-left: 0;
-  }
-
-  .culture .left {
-    justify-content: flex-start;
-  }
-
-  .games .content {
-    grid-template-columns: 1fr;
-  }
-
-  .games .game {
-    justify-content: space-between;
-  }
-}
-
-/* News section */
-
-.news {
-  margin-top: 30px;
-}
-
-/* "NEWS" title is smaller than the other section titles */
-
-.news h3 {
-  font-size: 11px;
-  font-family: Arial, sans-serif;
-  margin-bottom: 20px;
-}
-
-/* 5 equal columns instead of the 3 columns used by .content elsewhere */
-
-.news .content {
-  grid-template-columns: repeat(5, 1fr);
-  gap: 35px 20px;
-}
-
-/* Small category title (World News, U.S. News...) */
-
-.news .column h4 {
-  font-family: Arial, sans-serif;
-  font-size: 11px;
-  margin-bottom: 8px;
-}
-
-/* Image on top of each column */
-
-.news .column img {
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  display: block;
-  background: #ddd;
-  margin-bottom: 10px;
-}
-
-/* Headline links under the image */
-
-.news .column a {
-  display: block;
-  font-size: 13px;
-  line-height: 1.3;
-  color: #222;
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-
-.news .column a:hover {
-  text-decoration: underline;
-}
-
-/* Tablet screens */
-
-@media screen and (max-width: 900px) {
-  .news .content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobile screens */
-
-@media screen and (max-width: 600px) {
-  .news .content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* News, Opinion and Arts sections (they all share these styles) */
+/* News, Opinion, Arts and Living sections */
 
 .news {
   margin-top: 50px;
 }
-
-/* Section title: NEWS, OPINION, ARTS */
 
 .news h3 {
   font-size: 11px;
@@ -378,24 +247,20 @@ small {
   margin-bottom: 20px;
 }
 
-/* 5 equal columns instead of the 3 columns */
-
 .news .content {
   grid-template-columns: repeat(5, 1fr);
   gap: 35px 20px;
 }
 
-/* Small category title (Opinion, Movies, Dance...) */
-
-.news .column h4 {
+.news .column h4,
+.news .health h4 {
   font-family: Arial, sans-serif;
   font-size: 11px;
   margin-bottom: 8px;
 }
 
-/* Image on top of each column */
-
-.news .column img {
+.news .column img,
+.news .health img {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
@@ -404,9 +269,8 @@ small {
   margin-bottom: 10px;
 }
 
-/* Headline links under the image */
-
-.news .column a {
+.news .column a,
+.news .health a {
   display: block;
   font-size: 13px;
   line-height: 1.3;
@@ -415,96 +279,9 @@ small {
   margin-bottom: 10px;
 }
 
-.news .column a:hover {
+.news .column a:hover,
+.news .health a:hover {
   text-decoration: underline;
-}
-
-/* Tablet screens */
-
-@media screen and (max-width: 900px) {
-  .news .content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobile screens */
-
-@media screen and (max-width: 600px) {
-  .news .content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* News, Opinion, Arts and Living sections (they all share these styles) */
-
-.news {
-  margin-top: 50px;
-}
-
-/* Section title: NEWS, OPINION, ARTS, LIVING */
-
-.news h3 {
-  font-size: 11px;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-/* 5 equal columns instead of the 3 columns used by .content elsewhere */
-
-.news .content {
-  grid-template-columns: repeat(5, 1fr);
-  gap: 35px 20px;
-}
-
-/* Small category title (Style, Food, Travel...) */
-
-.news .column h4 {
-  font-family: Arial, sans-serif;
-  font-size: 11px;
-  margin-bottom: 8px;
-}
-
-/* Image on top of each column */
-
-.news .column img {
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  display: block;
-  background: #ddd;
-  margin-bottom: 10px;
-}
-
-/* Headline links under the image */
-
-.news .column a {
-  display: block;
-  font-size: 13px;
-  line-height: 1.3;
-  color: #222;
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-
-.news .column a:hover {
-  text-decoration: underline;
-}
-
-/* Tablet screens */
-
-@media screen and (max-width: 900px) {
-  .news .content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobile screens */
-
-@media screen and (max-width: 600px) {
-  .news .content {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 /* Footer section */
@@ -634,7 +411,29 @@ small {
 /* Tablet screens */
 
 @media screen and (max-width: 900px) {
-  .footer-links {
+  .container {
+    width: 90%;
+  }
+
+  .content {
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .right {
+    grid-column: 1 / 3;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .games .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .news .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .site-footer .footer-links {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -647,7 +446,43 @@ small {
 /* Mobile screens */
 
 @media screen and (max-width: 600px) {
-  .footer-links {
+  .container {
+    width: 94%;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .left,
+  .middle,
+  .right {
+    width: 100%;
+  }
+
+  .right {
+    grid-column: auto;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .culture .left {
+    justify-content: flex-start;
+  }
+
+  .games .content {
+    grid-template-columns: 1fr;
+  }
+
+  .games .game {
+    justify-content: space-between;
+  }
+
+  .news .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .site-footer .footer-links {
     grid-template-columns: repeat(2, 1fr);
   }
 }
