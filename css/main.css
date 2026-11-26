@@ -1809,26 +1809,9 @@ video {
   cursor: default;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Georgia, serif;
-  color: #222;
-}
-
 hr {
   border: none;
   border-top: 1px solid #999;
-}
-
-.container {
-  width: 80%;
-  max-width: 1200px;
-  margin: 20px auto;
 }
 
 .container h3 {
