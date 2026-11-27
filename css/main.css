@@ -1852,11 +1852,11 @@ hr {
 /* Culture section */
 
 .culture .content {
-  align-items: center;
+  align-items: start;
 }
 
 .culture .left {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* Middle image */
