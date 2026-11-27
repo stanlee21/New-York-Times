@@ -34,7 +34,7 @@ Our focus is on recreating the overall homepage structure, including its header,
 
 The homepage will include:
 
-- Website header and branding.
+- Site header and branding.
 - Navigation menu.
 - Featured news stories.
 - News headlines and article previews.
